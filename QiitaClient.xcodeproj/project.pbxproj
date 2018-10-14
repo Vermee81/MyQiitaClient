@@ -12,6 +12,7 @@
 		142AC82A21736B6D00613A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142AC82821736B6D00613A66 /* LaunchScreen.storyboard */; };
 		142AC83521736B6D00613A66 /* QiitaClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC83421736B6D00613A66 /* QiitaClientTests.swift */; };
 		142AC84021736C3E00613A66 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC83F21736C3E00613A66 /* ArticleListViewController.swift */; };
+		142AC84221736FAB00613A66 /* ArticleListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC84121736FAB00613A66 /* ArticleListViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		142AC83421736B6D00613A66 /* QiitaClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaClientTests.swift; sourceTree = "<group>"; };
 		142AC83621736B6D00613A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		142AC83F21736C3E00613A66 /* ArticleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
+		142AC84121736FAB00613A66 /* ArticleListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				142AC83421736B6D00613A66 /* QiitaClientTests.swift */,
 				142AC83621736B6D00613A66 /* Info.plist */,
+				142AC84121736FAB00613A66 /* ArticleListViewControllerTests.swift */,
 			);
 			path = QiitaClientTests;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				142AC83521736B6D00613A66 /* QiitaClientTests.swift in Sources */,
+				142AC84221736FAB00613A66 /* ArticleListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
