@@ -13,6 +13,9 @@
 		142AC83521736B6D00613A66 /* QiitaClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC83421736B6D00613A66 /* QiitaClientTests.swift */; };
 		142AC84021736C3E00613A66 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC83F21736C3E00613A66 /* ArticleListViewController.swift */; };
 		142AC84221736FAB00613A66 /* ArticleListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC84121736FAB00613A66 /* ArticleListViewControllerTests.swift */; };
+		142AC84421737A7D00613A66 /* ArticleListAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC84321737A7D00613A66 /* ArticleListAPIClientProtocol.swift */; };
+		142AC84621737C3000613A66 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC84521737C3000613A66 /* Article.swift */; };
+		142AC84821737D4700613A66 /* ArticleListAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC84721737D4700613A66 /* ArticleListAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		142AC83621736B6D00613A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		142AC83F21736C3E00613A66 /* ArticleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
 		142AC84121736FAB00613A66 /* ArticleListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewControllerTests.swift; sourceTree = "<group>"; };
+		142AC84321737A7D00613A66 /* ArticleListAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClientProtocol.swift; sourceTree = "<group>"; };
+		142AC84521737C3000613A66 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		142AC84721737D4700613A66 /* ArticleListAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				142AC82821736B6D00613A66 /* LaunchScreen.storyboard */,
 				142AC82B21736B6D00613A66 /* Info.plist */,
 				142AC83F21736C3E00613A66 /* ArticleListViewController.swift */,
+				142AC84321737A7D00613A66 /* ArticleListAPIClientProtocol.swift */,
+				142AC84521737C3000613A66 /* Article.swift */,
+				142AC84721737D4700613A66 /* ArticleListAPIClient.swift */,
 			);
 			path = QiitaClient;
 			sourceTree = "<group>";
@@ -196,6 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142AC84621737C3000613A66 /* Article.swift in Sources */,
+				142AC84421737A7D00613A66 /* ArticleListAPIClientProtocol.swift in Sources */,
+				142AC84821737D4700613A66 /* ArticleListAPIClient.swift in Sources */,
 				142AC82021736B6A00613A66 /* AppDelegate.swift in Sources */,
 				142AC84021736C3E00613A66 /* ArticleListViewController.swift in Sources */,
 			);
