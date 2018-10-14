@@ -16,6 +16,7 @@
 		142AC84421737A7D00613A66 /* ArticleListAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC84321737A7D00613A66 /* ArticleListAPIClientProtocol.swift */; };
 		142AC84621737C3000613A66 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC84521737C3000613A66 /* Article.swift */; };
 		142AC84821737D4700613A66 /* ArticleListAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC84721737D4700613A66 /* ArticleListAPIClient.swift */; };
+		142AC84A2173846A00613A66 /* ArticleListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AC8492173846A00613A66 /* ArticleListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		142AC84321737A7D00613A66 /* ArticleListAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClientProtocol.swift; sourceTree = "<group>"; };
 		142AC84521737C3000613A66 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		142AC84721737D4700613A66 /* ArticleListAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListAPIClient.swift; sourceTree = "<group>"; };
+		142AC8492173846A00613A66 /* ArticleListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				142AC84321737A7D00613A66 /* ArticleListAPIClientProtocol.swift */,
 				142AC84521737C3000613A66 /* Article.swift */,
 				142AC84721737D4700613A66 /* ArticleListAPIClient.swift */,
+				142AC8492173846A00613A66 /* ArticleListCell.swift */,
 			);
 			path = QiitaClient;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				142AC84421737A7D00613A66 /* ArticleListAPIClientProtocol.swift in Sources */,
 				142AC84821737D4700613A66 /* ArticleListAPIClient.swift in Sources */,
 				142AC82021736B6A00613A66 /* AppDelegate.swift in Sources */,
+				142AC84A2173846A00613A66 /* ArticleListCell.swift in Sources */,
 				142AC84021736C3E00613A66 /* ArticleListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
